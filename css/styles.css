@@ -1,0 +1,153 @@
+
+body{
+    overflow-x: hidden;
+}
+
+#title{
+    background-color: #ff4c68;
+}
+
+.title{
+    font-family: 'Montserrat',sans-serif;  font-size: 3.5rem;  line-height: 1.5;  font-weight: 900; color: #fff;
+
+}
+.container-fluid{
+    padding: 3% 9% 0;
+    
+}
+.bt{
+    margin: 9% 6% 31% 0;
+    padding: 1% 7%;
+}
+.iphone{
+    width : 55%;
+    rotate: 21deg;
+    margin-left: 21%;
+    position: relative;
+    top: 75px;
+}
+
+/* Navgation-Bar */
+.navbar-brand{
+    font-family: "Ubuntu" ;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.nav-link{ font-size: 1.025rem; font-family: 'Montserrat' ; font-weight: 400;}
+
+/* features */
+
+#features{
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+    bottom: 76px;
+    
+}
+.features{
+    text-align: center;
+    padding: 10% 7% 7%;
+    position: relative;
+    top: 38px;
+}
+
+h2{
+    font-family: 'Montserrat'; font-weight : 600; line-height: 1.5; size: 2.5rem;
+}
+
+h3{ 
+    margin-top: 8%;
+    font-family: 'Montserrat'; font-weight: 800; line-height: 1.5;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+i{
+    margin: 0 15px;
+}
+
+i:hover{
+    color: #ff4c68 ;
+}
+.icon{
+    color:#b01733;
+}
+.fa{
+    text-align: center;
+    margin: 1.3% 5px;
+}
+
+/* testimonial-section */
+
+#testimonials
+{
+    
+    background-color: #ff4c68;
+    text-align: center;
+    -webkit-text-fill-color: #fff;
+}
+.testimonial-image{
+    width: 20%;
+    border-radius: 48%;
+    margin:3%;
+}
+/* carousel */
+.carousel-item{
+    padding: 10% 15% 8%;
+}
+
+/* press */
+
+#press{
+    background-color:#ff4c68 ;
+    text-align: center;
+    padding: 0px 0  45px;
+}
+.press{
+    width: 15%;
+    margin: 3%;
+}
+
+#pricing{
+    text-align: center;
+    padding-top: 5%;
+    
+}
+
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+    
+}
+.c{
+    padding: 5px 30% 100px ;
+    margin: 5% 0;
+    text-align: center;
+    
+    
+}
+#footer{
+    text-align: center;
+    padding: 3% 0 0;
+}
+.bt1{
+    margin: 4% 2% 0;
+    padding: 1% 3%;
+}
+
+@media (max-width: 1000px ) {
+    .iphone {
+        position: static;
+        rotate:10deg ;
+        margin-left: 10% ;
+        margin-top: 0;
+    }
+
+    .bt{
+        margin: 3% 2% 30% 0;
+        padding: 1% 2%;
+    }
+}
